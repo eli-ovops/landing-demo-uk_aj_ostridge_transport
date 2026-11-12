@@ -1,0 +1,5 @@
+.workshop-image{display:flex;flex-direction:column;justify-content:space-between;padding:4vw;background:repeating-linear-gradient(135deg,#1a2721 0,#1a2721 2px,#24332b 2px,#24332b 12px);color:var(--lime)}
+.workshop-image p{font-family:var(--display);font-size:clamp(3rem,5vw,5.5rem);letter-spacing:-.07em;line-height:.84}
+.workshop-image span{font-size:.7rem;text-transform:uppercase;letter-spacing:.14em}
+.route{background:var(--moss)}
+.route-overlay{background:radial-gradient(circle at 85% 30%,#789257 0,transparent 25%),linear-gradient(135deg,#142019 5%,#35513f 52%,#101914 100%)}

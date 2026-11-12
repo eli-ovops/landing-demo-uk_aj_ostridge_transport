@@ -1,0 +1,21 @@
+schema_version: "1.0"
+status: "draft-l0-local-only"
+site_id: "aj-ostridge-transport-independent-concept-20260824"
+project: "A. J. Ostridge Transport independent concept preview"
+confirmed_by: "User — demo creation authorization only"
+confirmed_at: "2026-08-24"
+no_secret_values: true
+server: { reference: "not applicable — local only", owner: "not applicable" }
+environments:
+  preview: { enabled: false, public_url: null, admin_path: null }
+  production: { enabled: false, public_url: null, admin_path: null }
+repository: { repo_url: "local workspace", approved_branch: "not applicable", production_branch: "main", commit_sha_required: false }
+architecture: "static"
+toolchain: { node: "not applicable", pnpm_major: null, package_manager: "not applicable", lockfile: null, payload_version: null }
+deployment: { mechanism: "local", call_carrier: "local file open only", allowed_modes: ["local-review"], guide_reference: "internal/DEMO_SCOPE.md", production_approval_required: true, authorization_reference: "No deployment authorized", deploy_owner: null, validate_required: false, status_required: false, eli_preview_exception: false }
+storage: { code_reference: "local workspace", releases_reference: "not applicable", database_reference: "none", media_reference: "remote public concept-reference asset" }
+database: { type: "other", credential_secret_ref: null, business_data_in_file: false }
+roles: { owner: "user", developer: "Codex", server_owner: "not applicable" }
+migration: { required: false, required_for_localization: false, procedure_reference: "not applicable", production_approval_required: true }
+health_checks: { public_page: "local browser review", application: null, admin: null, api: null }
+rollback: { procedure_reference: "delete local concept only with explicit authorization", explicit_authorization_required: true }
